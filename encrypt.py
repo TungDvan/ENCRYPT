@@ -14,7 +14,7 @@ def RC4(key, cipher):
     return ans
 
 if __name__ == "__main__":
-    file_path = "user128.md"  
+    file_path = "user128.txt"  
     byte_list = [] 
     try:
         with open(file_path, "rb") as file:
